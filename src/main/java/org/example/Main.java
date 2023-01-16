@@ -73,7 +73,7 @@ public class Main {
      */
     public static void getAllBrother(Person personality) {
         try {
-            int length = personality.getSisters().size();
+            int length = personality.getBrothers().size();
             for (int i = 0; i < length; i++) {
                 String br = personality.getBrothers().get(i).name;
                 System.out.println(br);
